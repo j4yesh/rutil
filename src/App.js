@@ -52,7 +52,7 @@ function App() {
   };
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <link rel="icon" href="%PUBLIC_URL%/logo.png" />
         <Navbar
           title="textutil2"
@@ -64,16 +64,16 @@ function App() {
         />
         <Alert alert={alert}></Alert>
 
-        {/* <div className="container my-3">
+        <div className="container my-3">
           <TextForm
             heading="City KA APNA textUTILS"
             showAlert={showAlert}
             mode={mode}
           />
           <Joystick></Joystick>
-        </div> */}
+        </div>
 
-        <div className="container my-3">
+        {/* <div className="container my-3">
           <Switch>
             <Route path="/">
               <TextForm
@@ -85,11 +85,10 @@ function App() {
             </Route>
             <Route path="/About">
               <p> hello uncle</p>
-            </Route>
-            
+            </Route>  
           </Switch>
-        </div>
-      </Router>
+        </div> */}
+      {/* </Router> */}
     </>
   );
 }
