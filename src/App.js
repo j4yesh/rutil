@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import Joystick from "./Components/joystick";
 import Alert from "./Components/Alert";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [mode, setmode] = useState("light");
@@ -32,7 +32,6 @@ function App() {
       i % 2 === 1
         ? (document.title = "TextUtil")
         : (document.title = "TextEditor");
-      console.log("called");
       i = (i + 1) % 5;
     }, 1000);
   };
@@ -64,14 +63,14 @@ function App() {
         />
         <Alert alert={alert}></Alert>
 
-        <div className="container my-3">
+        {/* <div className="container my-3">
           <TextForm
             heading="City KA APNA textUTILS"
             showAlert={showAlert}
             mode={mode}
           />
           <Joystick></Joystick>
-        </div>
+        </div> */}
 
         {/* <div className="container my-3">
           <Switch>
@@ -85,7 +84,7 @@ function App() {
             </Route>
             <Route path="/About">
               <p> hello uncle</p>
-            </Route>  
+            </Route>
           </Switch>
         </div> */}
       {/* </Router> */}
