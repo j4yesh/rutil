@@ -1,4 +1,5 @@
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
 import About from "./Components/About";
@@ -62,14 +63,21 @@ function App() {
           blue={blue}
         />
         <Alert alert={alert}></Alert>
+<<<<<<< HEAD
 
         {/* <div className="container my-3">
           <TextForm
             heading="City KA APNA textUTILS"
+=======
+        <div className="container">
+          <TextForm heading="City KA APNA textUTILS"
+>>>>>>> 4af569bd68f7a444b35a4c9ced6042a40ec95ac3
             showAlert={showAlert}
-            mode={mode}
-          />
+            mode={mode}></TextForm>
+        </div>
+        <div className="container">
           <Joystick></Joystick>
+<<<<<<< HEAD
         </div> */}
 
         {/* <div className="container my-3">
@@ -88,8 +96,25 @@ function App() {
           </Switch>
         </div> */}
       {/* </Router> */}
+=======
+        </div>
+>>>>>>> 4af569bd68f7a444b35a4c9ced6042a40ec95ac3
     </>
   );
 }
 
 export default App;
+
+
+// import logo from './logo.svg';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <button type="button" class="btn-close" aria-label="Close"></button>
+//     </div>
+//   );
+// }
+
+// export default App;

@@ -1,14 +1,24 @@
 {
+<<<<<<< HEAD
   "name": "rutil",
+=======
+  "name": "temp1",
+>>>>>>> 4af569bd68f7a444b35a4c9ced6042a40ec95ac3
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.0",
+=======
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+>>>>>>> 4af569bd68f7a444b35a4c9ced6042a40ec95ac3
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
